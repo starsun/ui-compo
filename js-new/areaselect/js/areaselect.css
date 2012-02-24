@@ -1,0 +1,86 @@
+/**area-tab**/
+.area-tab {
+	width: 275px;
+	border: 1px solid #E6E5E5;
+	background-color: #fff;
+	position: absolute;
+	z-index: 10;
+}
+
+.area-tab .h {
+	background-color: #f6f6f6;
+	border-bottom: 1px solid #E6E5E5;
+	height: 32px;
+}
+
+.area-tab .h .s-tab-t {
+	float: left;
+	cursor: pointer;
+	list-style: none outside none;
+	background-color: #f6f6f6;
+	border-left: 1px solid #E6E5E5;
+}
+
+.area-tab .h .inner {
+	display: inline-block;
+	height: 28px;
+	font-size: 14px;
+	line-height: 32px;
+	overflow: hidden;
+	text-align: center;
+	padding: 0 22px;
+}
+
+.area-tab .h .current {
+	color: #06c;
+	font-weight: bold;
+	background-color: #fff;
+}
+
+.area-tab .s-tab-b {
+	padding: 10px 0;
+	z-index: 100;
+}
+
+.area-tab .s-tab-b li {
+	display: inline-block;
+	float: left;
+}
+
+.area-tab .s-tab-b .panel-item {
+	display: inline-block;
+	height: 24px;
+	line-height: 24px;
+	font-size: 12px;
+	white-space: nowrap;
+	padding: 0 6px;
+	margin: 0 0 0 5px;
+	color: #404040;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.area-tab .s-tab-b .panel-item.current {
+	background-color: #06c;
+	color: #fff;
+}
+
+.area-tab .s-tab-b a:hover {
+	background-color: #9CD2FF;
+}
+
+.area-tab .s-tab-b .panel-category {
+	overflow: hidden;
+}
+
+.area-tab .panel-category dt {
+	color: #06c;
+	float: left;
+	width: 30px;
+	margin-left: 10px;
+}
+
+.area-tab .panel-category dd {
+	float: left;
+	width: 200px;
+}

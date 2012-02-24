@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+    <title>areaselect</title>
+	<link href="http://style.china.alibaba.com/css/lib/fdev-v4/core/fdev-float.css" rel="stylesheet" type="text/css">
+	<link href="areaselect.css" rel="stylesheet" type="text/css">
+	
+	<style>
+
+	</style>
+	
+</head>
+<body>
+<input id="source-area" autocomplete="off" class="alp-area-text ui-autocomplete-input" >
+	
+<div id="source-area-select" class="area-tab"></div>
+<!--ul class="h"><li class="s-tab-t"><span class="inner" index="0">常用</span></li><li class="s-tab-t"><span class="inner" index="1">省</span></li><li class="s-tab-t"><span class="inner" index="2">市</span></li><li class="s-tab-t"><span class="inner" index="3">区县</span></li><span class="alp-icon alp-close alp-close-area"></span><div class="c"></div></ul><div index="0" class="s-tab-b"></div><div index="1" class="s-tab-b"></div><div index="2" class="s-tab-b"></div><div index="3" class="s-tab-b"></div><div class="c"></div-->
+
+<script type="text/javascript" charset="utf-8" src="http://style.china.alibaba.com/js/lib/fdev-v4/core/fdev-min.js"></script>
+<script type="text/javascript" charset="utf-8" src="areaselect.js"></script>
+<script type="text/javascript" charset="utf-8" src="areadata.js"></script>
+<script type="text/javascript">
+  jQuery(document).ready(function() {
+
+	var options = {grade:3,cGrade:2,txtId:'#source-area'};
+	var callback = function(targetPage, act) {console.log(act);};
+	
+	var sourceSelect = Lite.UI.getAreaSelect('#source-area-select', options);
+	sourceSelect.init();
+
+	
+
+});
+
+
+
+
+</script>
+
+</body>
+</html>
