@@ -1,0 +1,197 @@
+/**通用样式**/
+@charset "utf-8";
+
+body{
+	color:#333;
+}
+
+.w960{width:960px; margin:0 auto;}
+input.txt{
+	height: 18px;
+    line-height: 18px;
+}
+.clr:after {
+    clear: both;
+    content: " ";
+    display: block;
+    height: 0;
+}
+.c{clear:both;}
+.ru3{
+	-moz-border-radius: 3px 3px 0 0;
+	border-radius: 3px 3px 0 0;
+}
+.r3{
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.hide {display:none;}
+.b{font-weight:bold;}
+.l {float:left;display:block;}
+.r {float:right;display:block;}
+.ac {text-align:center;}
+.ar {text-align:right;}
+.al {text-align:left;}
+
+/**常用行高**/
+.lh16{line-height:16px;}
+.lh20{line-height:20px;}
+.lh24{line-height:24px;}
+.lh30{line-height:30px;}
+.lh38{line-height:38px;}
+
+/**常用边距**/
+.pd10{padding:10px;}
+.pd20{padding:20px;}
+.pdl10{padding-left:10px;}
+.pdl20{padding-left:20px;}
+.mgl10{margin-left:10px;}
+.mgl20{margin-left:20px;}
+.mgr10{margin-right:10px;}
+.mgr20{margin-right:20px;}
+.mgr30{margin-right:30px;}
+.mgr432{margin-right:432px;}
+.mgt10{margin-top:10px;}
+.mgt20{margin-top:20px;}
+.mgt16{margin-top:16px;}
+.mgb10{margin-bottom:10px;}
+
+/**常用颜色**/
+.black,   a.black{color:#333;}
+.white,   a.white,  a.white:hover {color:#fff;}
+.blue,    a.blue, a.blue:hover  {color:#1981c8;}
+.blue-orange, a.blue-orange{color:#0147A6},a.blue-orange:hover{color:#ff4200}
+.green,   a.green, a.green:hover {color:#669900;}
+.yellow, a.yellow, a.yellow:hover{color:#fdc47d}
+.orange,  a.orange,  a.orange:hover {color:#ff7300;}
+.gray,    a.gray,  a.gray:hover{color:#999;}
+.gray a:hover{color:#369;text-decoration:none;}
+.red,     a.red, a.red:hover{color:#ff3333;}
+.brown,   a.brown  a.brown:hover {color:#af5a5a;}
+.gray6,    a.gray6 {color:#666;}
+a.gray6, a.gray{cursor:pointer;}
+
+
+/*--------- 通用链接---------*/
+a, a{color:#333;}
+a{ text-decoration:none;}
+a:hover, a:active {color: #FF7300;}
+
+
+/**字体**/
+.en {font-family:"Verdana";}
+em ,.em{font-style:normal;font-weight:bold;font-family:sans-serif;}
+.size-14{ font-size:14px;}
+
+/**margin： l m s 距离的大小**/
+.m-t-l{margin-top:16px;}
+
+/**border**/
+.border {border:1px solid #d3d3d3;}
+.no-border{ border:none !important;}
+
+/** common box**/
+.alp-graybox{background-color:#f6f6f6;}
+.alp-silverbox{background-color:#f8f8f8;}
+.alp-bluebox{background-color:#c0dded;}
+
+/*手指*/
+.pointer{
+	cursor:pointer;
+}
+
+/**header**/
+.wlLogoW{float:left;width: 277px;height:54px;}
+.wlLogoW a{float:left;}
+.aliLogo{width:169px;height: 54px;text-indent:-9999px;}
+.subLogo{margin-top:6px;padding-left:8px;width:100px;height:34px;color:#666;cursor:pointer;}
+a.subLogo:hover{text-decoration: none;}
+.subLogoTxt{display:block;height:26px;font:700 18px/26px "微软雅黑","黑体";overflow:hidden;}
+.subLogoUrl{ display:block;height:12px;font:700 10px/12px Tahoma,Arial,sans-serif;overflow:hidden;}
+
+
+
+#alp-head{height:68px;}
+.alp-logo{height:50px;width:284px; margin-top:8px;}
+.alp-logo a{display:inline-block;float:left;height:50px;overflow:hidden;}
+.alp-logo .ali-logo img{ height:50px; width:170px;}
+.alp-logo .logo{margin-left:10px;width:100px;cursor:pointer;font: 700 18px/26px "微软雅黑","黑体";color:#666;padding:6px 0 0;}
+.alp-logo .logo:hover{text-decoration:none;}
+.alp-logo .logo span{font:700 10px/12px Tahoma,Arial,sans-serif;}
+
+
+/**头部右侧链接**/
+.alp-guide{margin-top:8px;}
+.alp-guide ul li{float:left;margin: 28px 0 0 8px;padding-right: 8px;line-height: 16px;height:16px; border-right: 1px solid #DEDEDE;}
+.alp-guide ul li a{display:inline-block;line-height:16px;height:16px;}
+.alp-guide li .alp-icon{padding-right:4px;margin-top: -2px;}
+.alp-guide ul li.tail {padding-right: 0;border-right: none;}
+
+/**导航**/
+
+#alp-nav, #alp-nav ul, #alp-nav li a, #alp-nav li.current, #alp-nav li.current a, #alp-nav li.current a:hover, #alp-nav div.tail{background: url("/alp/images/alp-nav.png") repeat scroll 0 0 transparent;}
+#alp-nav {background-position: 0 -184px;clear: both;height: 36px;overflow:hidden;}
+#alp-nav ul{float:left; height:36px;padding-left:4px;}
+#alp-nav li {float: left;height: 36px;line-height: 36px;overflow: hidden;}
+#alp-nav li.current {background-position: 0 -46px;padding: 0 0 0 12px;color:#666;}
+#alp-nav li a, #alp-nav .guide a{background-position: right -138px; color: #fff; display: inline-block;text-decoration: none;}
+#alp-nav li a{font-size: 14px; font-weight: bold; padding: 0 25px;display: inline-block;}
+#alp-nav li a:hover{background-position: right -230px;}
+#alp-nav li.current a, #alp-nav li.current a:hover {background-position: right -92px;color: #666;padding: 0 25px 0 13px;}
+#alp-nav div.tail {background-position: right 0;float: right;height: 36px;width: 12px;}
+#alp-nav div.guide{float:right;line-height:36px;}
+#alp-nav div.guide a{padding:0 4px;}
+#alp-nav div.guide .line{padding-right:12px;background: url("/alp/images/alp-nav.png") repeat scroll right -138px transparent;}
+
+/**sidenav**/
+.alp-sidenav{background-color:#d6e8f1;-moz-border-radius:3px;border-radius:3px;border-top:1px solid #d6e8f1;}
+.alp-sidenav li{text-align:center;display:block; height: 50px;font-weight:bold;background:url(/alp/images/alp-nav.png) no-repeat 10px -276px transparent;}
+.alp-sidenav li a, .alp-sidebar li a.currnt{line-height:36px;height:36px;color:#1981c8; display:block;margin:8px 0 8px 8px;}
+.alp-sidenav li a.currnt{color:#666; background-color:#fff;-moz-border-radius:3px 0 0 3px;border-radius:3px 0 0 3px;}
+
+
+
+/**帮助信息**/
+.alp-help-info{margin:0px; width:150px; border:1px solid #D3D3D3;border-radius:3px 3px 3px 3px; font:12px/1.5 Tahoma,Arial,"宋体",sans-serif;}
+.alp-help-info ul {margin:8px 0 0 0;padding:0px; width:100%;}
+.alp-help-info ul li{ list-style:none outside none; margin:0px; padding:0px;overflow:hidden; height:24px; line-height:24px;}
+.alp-help-info ul li a{display:inline-block; margin:0 0 0 10px;overflow:hidden;}
+
+
+/** 最新活动**/
+.alp-announcement{height:200px;_height:202px;*height:202px;border:1px solid #dbe3e6;border-radius:3px 3px 3px 3px; text-align:left;line-height:32px;font:12px/1.5 Tahoma,Arial,"宋体",sans-serif; margin:0px; padding:0px;}
+.alp-announcement h3{font-weight:bold; height:30px; line-height:30px; margin:0px; padding:0px; font-size:12px;}
+.alp-announcement a{ color:#333; text-decoration:none;}
+.alp-announcement a:hover{ color:#FF7300; text-decoration:none;}
+.alp-announcement ul{margin:0px; padding:0px;}
+.alp-announcement li{ margin:0px;padding:0px;list-style-type:none;height:32px; line-height:32px;  border-bottom:1px dashed #dbe3e6; overflow:hidden;}
+
+
+/**方形list style**/
+.alp-square{width:4px;height:4px;display:inline-block;background-color:#d0d0d0;line-height:4px;}
+
+/**表单**/
+.inp-text{height:25px;}
+
+
+.alp-autocomplete-tips{background-color: #FFF8ED;border: 1px solid #FFCB99;display: block;font-size: 12px;height: 24px;line-height: 24px;padding: 0 10px;position: absolute;}
+
+.alp-price-query{background-color:#fffcf4;border:3px solid #f5ae57;height:194px;position:relative;}
+.alp-price-query h3 .gray{font-weight:normal;}
+.alp-price-query label{margin:0 10px;display:inline-block;}
+.alp-price-query .alp-btnm-w{margin-left:56px;}
+
+/** 推荐线路id 样式**/
+#routes-scorll{width:380px;overflow:hidden; height:160px;float:left;position:relative;}
+/**推荐线路 **/
+.t-route{ border:1px solid #dbe3e6; text-align:left; width:420px !important; height:198px;padding: 0 0 0 10px;}
+.t-route ul{ margin:0px; padding:0px; list-style-type:none; width:380px;overflow:hidden; height:160px;}
+.t-route li{ margin:0px;list-style-type:none;height:32px; line-height:32px;  border-bottom:1px dashed #dbe3e6; overflow:hidden;}
+.t-route li .alp-icon{ margin:0 4px;}
+.t-route li .routes{ margin:2px; display:inline-block; padding:0px 0 0 5px; width:300px;}
+.t-route li .routes:hover{ background-color:#e8f3f8;text-decoration:none;}
+.t-route .i-scorll{float:right; height:158px; width:32px; position:relative; text-align:left;}
+.t-route .i-scorll .i-up{ position:absolute; top:0px; left:0px;} 
+.t-route .i-scorll .i-down{ position:absolute; bottom:-4px; left:0px;} 	
+

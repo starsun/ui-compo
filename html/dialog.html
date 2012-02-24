@@ -1,0 +1,305 @@
+<!--include js files -->
+<!-- write html code behind -->
+<style type="text/css">
+	table {
+		border-collapse: collapse;
+	}
+	table td {
+		border:1px solid #ddd;
+		padding:4px;
+	}
+</style>
+<p style="color:red">在使用前请确保引入了widget.js, util.js, template.js, mask.js, dialog.js</p>
+<p><strong>alert弹出浮层</strong></p>
+<p>alert配置参数</p>
+<div>
+	<table width="100%" cellspacing="0" cellpadding="0" border="1">
+		<tbody>
+			<tr>
+				<td><strong>参数</strong></td>
+				<td><strong>默认值</strong></td>
+				<td><strong>可选参数</strong></td>
+				<td><strong>说明</strong></td>
+			</tr>
+			<tr>
+				<td>width</td>
+				<td>300</td>
+				<td>&nbsp;</td>
+				<td>宽度(int)，可传</td>
+			</tr>
+			<tr>
+				<td>height</td>
+				<td>自适应</td>
+				<td>&nbsp;</td>
+				<td>高度(int)，可传</td>
+			</tr>
+			<tr>
+				<td>mask</td>
+				<td>false</td>
+				<td>&nbsp;</td>
+				<td>是否整个页面有遮罩浮层。true：有，false：无。</td>
+			</tr>
+			<tr>
+				<td>content</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>内容(string)，<span style="background-color: rgb(255, 0, 0);">必传</span></td>
+			</tr>
+			<tr>
+				<td>title</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>标题(string)，不传整个顶部都没有，可传</td>
+			</tr>
+			<tr>
+				<td>type</td>
+				<td>&nbsp;</td>
+				<td>INFO/WARN/ERROR/SUCC/HELP</td>
+				<td>类型(string)，可传</td>
+			</tr>
+			<tr>
+				<td>&nbsp;onClose</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;回调方法(function)，可传</td>
+			</tr>
+			<tr>
+				<td>&nbsp;label</td>
+				<td>&nbsp;确 定</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;“确定”的替换文件( string)，可传</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+<p>这是demo，请点击下面的链接</p>
+<a href="javascript:;" id="alert-demo" style="color:#06c">click me~</a>
+<script type="text/javascript">
+	$('#alert-demo').bind('click',function() {
+		new ALP.Widget.alert({
+			type:'WARN',
+			content:'这是alert demo。'
+		});
+	});
+</script>
+<p>这是demo代码</p>
+<pre class="code">
+&lt;script type="text/javascript"&gt;
+	$('#alert-demo').bind('click',function() {
+		new ALP.Widget.alert({
+			type:'WARN',
+			content:'这是alert demo。'
+		});
+	});
+&lt;/script&gt;
+</pre>
+<br/>
+<br/>
+<p><strong>confirm弹出浮层</strong></p>
+<p>配置参数</p>
+<div>
+	<table width="100%" cellspacing="1" cellpadding="1" border="1">
+		<tbody>
+			<tr>
+				<td>参数</td>
+				<td>默认值</td>
+				<td>可选值</td>
+				<td>说明</td>
+			</tr>
+			<tr>
+				<td>width</td>
+				<td>180</td>
+				<td>&nbsp;</td>
+				<td>宽度(int)，可传</td>
+			</tr>
+			<tr>
+				<td>mask</td>
+				<td>true</td>
+				<td>&nbsp;</td>
+				<td>是否整个页面有遮罩浮层。true：有，false：无。</td>
+			</tr>
+			<tr>
+				<td>content</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>内容(String)，<span style="background-color: rgb(255, 0, 0);">必传</span></td>
+			</tr>
+			<tr>
+				<td>type</td>
+				<td>&nbsp;</td>
+				<td>INFO/WARN/ERROR/SUCC/HELP</td>
+				<td>类型(string)，主要区分Icon，可传</td>
+			</tr>
+			<tr>
+				<td>onConfirm</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>当确定时回调 (function)，可传</td>
+			</tr>
+			<tr>
+				<td>onCancel</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>当取消时回调 (function)，可传</td>
+			</tr>
+			<tr>
+				<td>&nbsp;labelConfirm</td>
+				<td>&nbsp;确定</td>
+				<td>&nbsp;</td>
+				<td>替换 “确定”，可传</td>
+			</tr>
+			<tr>
+				<td>&nbsp;labelCancel</td>
+				<td>&nbsp;取消</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;替换“取消”，可传</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+<p>这是demo，请点击下面的链接</p>
+<a href="javascript:;" id="confirm-demo" style="color:#06c">click me~</a>
+<script type="text/javascript">
+	$('#confirm-demo').bind('click',function() {
+		new ALP.Widget.confirm({
+			title:"确认删除吗?",
+            content:"确认删除吗?删除后将不可恢复。",
+            type:'WARN',
+            onConfirm:function(){
+				alert('你点了确定~');
+			},
+            onCancel:function(){
+				alert('你点了取消~');
+			}
+		});
+	});
+</script>
+<p>这是demo代码</p>
+<pre class="code">
+&lt;script type="text/javascript"&gt;
+	$('#confirm-demo').bind('click',function() {
+		new ALP.Widget.confirm({
+			title:"确认删除吗?",
+            content:"确认删除吗?删除后将不可恢复。",
+            type:'WARN',
+            onConfirm:function(){
+				alert('你点了确定~');
+			},
+			onCancel:function(){
+				alert('你点了取消~');
+			}
+		});
+	});
+&lt;/script&gt;
+</pre>
+<br/>
+<br/>
+<p><strong>自定义弹出浮层</strong></p>
+<p>配置参数</p>
+<div>
+	<table width="100%" cellspacing="1" cellpadding="1" border="1">
+		<tbody>
+			<tr>
+				<td><strong>参数</strong></td>
+				<td><strong>默认值</strong></td>
+				<td><strong>可选值</strong></td>
+				<td><strong>说明</strong></td>
+			</tr>
+			<tr>
+				<td>width</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>宽度</td>
+			</tr>
+			<tr>
+				<td>height</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>高度</td>
+			</tr>
+			<tr>
+				<td>zIndex</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td>title</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>标题<span style="background-color: rgb(255, 0, 0);">(必选)</span></td>
+			</tr>
+			<tr>
+				<td>content</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>内容<span style="background-color: rgb(255, 0, 0);">(必选)</span></td>
+			</tr>
+			<tr>
+				<td>base</td>
+				<td>#bp-box</td>
+				<td>&nbsp;</td>
+				<td>dialog的父级元素</td>
+			</tr>
+			<tr>
+				<td>border</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>边框</td>
+			</tr>
+			<tr>
+				<td>mask</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>bool  true 默认  true:全窗口覆盖，false只有窗体背后一点</td>
+			</tr>
+			<tr>
+				<td>padding</td>
+				<td>4</td>
+				<td>&nbsp;</td>
+				<td>内边距，默认4  外边框阴影宽度</td>
+			</tr>
+			<tr>
+				<td>center</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>是否居中(bool)</td>
+			</tr>
+			<tr>
+				<td>noclose</td>
+				<td>&nbsp;false</td>
+				<td>&nbsp;false,true</td>
+				<td>(bool) 没有关闭按钮</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+<p>这是demo，请点击下面的链接</p>
+<a href="javascript:;" id="free-demo" style="color:#06c">click me~</a>
+<script type="text/javascript">
+	$('#free-demo').bind('click',function() {
+		new ALP.Widget.Dialog({
+			title:"啦啦啦",
+            content:"<div style=\"padding:5px;\">\
+					<p><strong>这是content的标题，大家一起来自定义- -</strong></p>\
+					<div>我是内容我是内容我是内容...</div>\
+					<p>自定义浮层是没有按钮滴，要自己写,还有浮层内的content样式也要自己写。我懒得写，就不写了，啊哈哈哈哈</p>\
+					</div>"
+		});
+	});
+</script>
+<p>这是demo代码</p>
+<pre class="code">
+&lt;script type="text/javascript"&gt;
+	$('#free-demo').bind('click',function() {
+		new ALP.Widget.Dialog({
+			title:"啦啦啦",
+			content:"&lt;div style=\"padding:5px;\"&gt;\
+					&lt;p&gt;&lt;strong&gt;这是content的标题，大家一起来自定义- -&lt;/strong&gt;&lt;/p&gt;\
+					&lt;div&gt;我是内容我是内容我是内容...&lt;/div&gt;\
+					&lt;p&gt;自定义浮层是没有按钮滴，要自己写,还有浮层内的content样式也要自己写。&lt;/p&gt;\
+					&lt;/div&gt;"
+		});
+	});
+&lt;/script&gt;
+</pre>

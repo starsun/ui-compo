@@ -1,0 +1,28 @@
+
+.lt-dialog{position:absolute;z-index:2000;background:url(http://img.china.alibaba.com/images/vas/bp/lt/lt-alpha.png?1234) transparent !important;_background:url() #ccc;}
+.lt-dialog-inner{width:450px;}
+.lt-dialog .lt-head{clear:both;height:29px;cursor:move;}
+.lt-dialog .lt-head .lt-bg{background-image:url(http://img.china.alibaba.com/images/vas/bp/lt/lt-dialog.gif);background-repeat:no-repeat;line-height:29px;}
+.lt-dialog .lt-head .lt-bg-l{background-position:left 0px;float:left;width:5px;font-size:0px;height:29px;}
+.lt-dialog .lt-head .lt-bg-r{background-position:right -62px;float:right;width:5px;font-size:0px;height:29px;}
+.lt-dialog .lt-head .lt-bg-c{background-position:right -31px;background-repeat:repeat-x;margin:0px 5px;}
+.lt-dialog .lt-head .lt-tit{font-weight:bold;color:#fff;}
+.lt-dialog .lt-head .lt-btn-close{float:right;display:block;background:url(http://img.china.alibaba.com/images/vas/bp/lt/lt-dialog.gif) transparent no-repeat -4px -109px;width:24px;height:24px;margin-top:3px;}
+.lt-dialog .lt-head .lt-btn-close:hover{background-position:-4px -90px;}
+.lt-dialog .lt-cnt{border:1px solid #ABABAB;border-top:0px;}
+.lt-dialog .lt-inner{border:1px solid #fff;background-color:#FDFDFD;}
+
+.lt-dialog-msg{padding:5px;}
+.lt-dialog-msg .info{margin:10px 0px;margin-left:50px !important;}
+.lt-dialog-msg input.mw{width:200px;}
+.lt-dialog-opt{background-color:#F4F4F4;border:1px solid #F4F4F4;padding:4px;}
+/***** 阴影 *****/
+.shadow {
+    -moz-box-shadow: 2px 2px 4px #666;
+    -webkit-box-shadow: 2px 2px 4px #666;
+    box-shadow: 2px 2px 4px #666;
+    /* For IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#666666')";
+    /* For IE 5.5 - 7 */
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#666666');
+}

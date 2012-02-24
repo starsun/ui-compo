@@ -1,0 +1,7 @@
+@charset "utf-8";
+
+.alp-m-yellow{ border:1px solid #e7dec7; background-color:#fffbb3;}
+.alp-m-s{ height:25px; line-height:25px; position:relative;  padding-left:5px;}
+
+/** ЯћЯЂЬсаб**/
+.alp-m-s .a-close{ position:absolute; right:5px; top:4px;}

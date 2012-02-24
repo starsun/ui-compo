@@ -1,0 +1,211 @@
+
+/**
+ * btnt: 超小号 20
+ * btns：小号 22->24 TODO
+ * btnm：中号 26->30 TODO
+ * btnl: 大号 32->36
+ * 
+ * s 轻量
+ * w 高亮
+ * d 无效
+ * **************************/
+.alp-btnt-3,.alp-btnt-3 span, 
+.alp-btnt-2,.alp-btnt-2 span,
+.alp-btnt-1,.alp-btnt-1 span,
+.alp-btnt-l,.alp-btnt-l span,
+.alp-btnt-s,.alp-btnt-s span,
+.alp-btnt-w,.alp-btnt-w span,
+.alp-btnt-d,.alp-btnt-d span,
+.alp-btns-l,.alp-btns-l span,
+.alp-btns-s,.alp-btns-s span,
+.alp-btns-w,.alp-btns-w span,
+.alp-btns-d,.alp-btns-d span,
+.alp-btnm-l,.alp-btnm-l  span,
+.alp-btnm-s,.alp-btnm-s span,
+.alp-btnm-w,.alp-btnm-w span,
+.alp-btnm-d,.alp-btnm-d span,
+.alp-btnl-l,.alp-btnl-l span,
+.alp-btnl-s,.alp-btnl-s span,
+.alp-btnl-w,.alp-btnl-w span,
+.alp-btnl-d,.alp-btnl-d span,
+.alp-download,.alp-split-up,.alp-split-down{display:inline-block;cursor:pointer;font-size:12px;background:url(../../images/wi-btn.png) no-repeat transparent;text-decoration:none;color:#000;zoom:0;font-family:"Arial";}
+
+.alp-btnt-1:hover,
+.alp-btnt-l:hover,
+.alp-btnt-s:hover,
+.alp-btnt-w:hover,
+.alp-btnt-d:hover,
+.alp-btns-l:hover,
+.alp-btns-s:hover,
+.alp-btns-w:hover,
+.alp-btns-d:hover,
+.alp-btnm-l:hover,
+.alp-btnm-s:hover,
+.alp-btnm-w:hover,
+.alp-btnm-d:hover,
+.alp-btnl-l:hover,
+.alp-btnl-s:hover,
+.alp-btnl-w:hover,
+.alp-btnl-d:hover{text-decoration:none;}
+
+.alp-btnt-l,
+.alp-btnt-s,
+.alp-btnt-w,
+.alp-btnt-d{line-height:20px;line-height:18px\9;}
+.alp-btns-l,
+.alp-btns-s,
+.alp-btns-w,
+.alp-btns-d{line-height:24px;line-height:22px\9;}
+.alp-btnm-l,
+.alp-btnm-s,
+.alp-btnm-w,
+.alp-btnm-d{line-height:30px;line-height:28px\9;}
+.alp-btnl-l,
+.alp-btnl-s,
+.alp-btnl-w,
+.alp-btnl-d{line-height:32px;line-height:30px\9;}
+
+.alp-btnt-w span,.alp-btns-w span,.alp-btnm-w span,.alp-btnl-w span{color:#FFF;}
+.alp-btnt-l .inner,.alp-btnl-l .inner,.alp-btns-l .inner,.alp-btnm-l .inner{color:#369;}
+.alp-btnt-d,.alp-btnt-d span,.alp-btnl-d,.alp-btnl-d span,.alp-btns-d,.alp-btns-d span,.alp-btnm-d,.alp-btnm-d span{color:#AAA;cursor:default;}
+
+.alp-btnt-l,.alp-btnt-s,.alp-btnt-w,.alp-btnt-d{height:20px;padding:0 0 0 5px;}
+.alp-btnt-l .inner,.alp-btnt-s .inner,.alp-btnt-w .inner,.alp-btnt-d .inner{line-height:20px;padding:0 5px 0 0;line-height:18px\9;padding:2px 4px 0 0\9;}
+
+.alp-btnt-s{background-position:0 -209px;}
+.alp-btnt-s .inner{background-position:right -239px;}
+.alp-btnt-l:hover,.alp-btnt-s:hover{background-position:0 -489px;}
+.alp-btnt-l:hover .inner,.alp-btnt-s:hover .inner{background-position:right -519px;}
+.alp-btnt-w{background-position:0 -1049px;}
+.alp-btnt-w .inner{background-position:right -1079px;}
+.alp-btnt-w:hover{background-position:0 -1329px;}
+.alp-btnt-w:hover .inner{background-position:right -1359px;}
+.alp-btnt-d{background-position:0 -1889px;}
+.alp-btnt-d .inner{background-position:right -1919px;}
+
+.alp-btns-s .prev,.lalp-btn-s .next,.alp-btns-w .prev,.alp-btns-w .next{-display:inline-block;-line-height:20px;}
+.alp-btns-l,.alp-btns-s,.alp-btns-w,.alp-btns-d{height:24px;padding-left:3px;}
+.alp-btns-l .inner,.alp-btns-s .inner,.alp-btns-w .inner,.alp-btns-d .inner{line-height:24px;padding:0 8px 0 5px;line-height:22px\9;padding-top:2px\9;}
+.alp-btns-s .prev,.alp-btns-w .prev,.alp-btns-d .prev{padding:0 1px 0 8px;}
+.alp-btns-s .next,.alp-btns-w .next,.alp-btns-d .next,.alp-btns-s .down,.alp-btns-w .down,.alp-btns-d .down{padding:0 7px 0 1px;}
+.alp-btns-s .prev{background-position:-2px -117px;background-position:-2px -119px\9;}
+.alp-btns-s .next{background-position:right -2470px;background-position:right -119px\9;}
+.alp-btns-s .down{background-position:right -2324px;background-position:right -2326px\9;}
+.alp-btns-s{background-position:0 -268px;}
+.alp-btns-s .inner{background-position:right -300px;}
+.alp-btns-l:hover,.alp-btns-s:hover{background-position:0 -549px;text-decoration:none;}
+.alp-btns-l:hover .inner,.alp-btns-s:hover .inner{background-position:right -581px;}
+.alp-btns-w .prev{background-position:-2px -24px;background-position:-2px -26px\9;}
+.alp-btns-w .next{background-position:right -24px;background-position:right -26px\9;}
+.alp-btns-w .down{background-position:right -2245px;background-position:right -2247px\9;}
+.alp-btns-w{background-position:0 -1109px;}
+.alp-btns-w .inner{background-position:right -1141px;}
+.alp-btns-w:hover{background-position:0 -1389px;}
+.alp-btns-w:hover .inner{background-position:right -1421px;}
+.alp-btns-d .prev{background-position:-2px -2164px;background-position:-2px -2166px\9;}
+.alp-btns-d .next{background-position:right -2164px;background-position:right -2166px\9;}
+.alp-btns-d .down{background-position:right -2404px;background-position:right -2406px\9;}
+.alp-btns-d{background-position:0 -1949px;}
+.alp-btns-d .inner{background-position:right -1981px;}
+
+.alp-btnm-l,.alp-btnm-s,.alp-btnm-w,.alp-btnm-d, .alp-btnt-2{height:30px;padding-left:8px;}
+.alp-btnm-l .inner,.alp-btnm-s .inner,.alp-btnm-w .inner,.alp-btnm-d .inner,.alp-btnt-2 .inner{line-height:30px;padding:0 16px 0 8px;line-height:28px\9;padding-top:2px\9;}
+.alp-btnm-s .prev,.alp-btnm-w .prev,.alp-btnm-d .prev{padding:0 2px 0 12px;}
+.alp-btnm-s .next,.alp-btnm-w .next,.alp-btnm-d .next,.alp-btnm-s .down,.alp-btnm-w .down,.alp-btnm-d .down{padding:0 11px 0 3px;}
+.alp-btnm-s .prev{background-position:-2px -139px;background-position:-2px -141px\9;}
+.alp-btnm-s .next{background-position:right -139px;background-position:right -141px\9;}
+.alp-btnm-s .down{background-position:right -2345px;background-position:right -2347px\9;}
+.alp-btnm-s{background-position:0 -333px;}
+.alp-btnm-s .inner{background-position:right -369px;}
+.alp-btnm-l:hover,.alp-btnm-s:hover{background-position:0 -613px;}
+.alp-btnm-l:hover .inner,.alp-btnm-s:hover .inner{background-position:right -649px;}
+.alp-btnm-w .prev{background-position:-2px -53px;background-position:-2px -55px\9;}
+.alp-btnm-w .next{background-position:right -53px;background-position:right -55px\9;}
+.alp-btnm-w .down{background-position:right -2267px;background-position:right -2269px\9;}
+.alp-btnm-w{background-position:0 -1173px;}
+.alp-btnm-w .inner{background-position:right -1209px;}
+.alp-btnm-w:hover{background-position:0 -1453px;}
+.alp-btnm-w:hover .inner{background-position:right -1489px;}
+.alp-btnm-d .prev{background-position:-2px -2186px;background-position:-2px -2188px\9;}
+.alp-btnm-d .next{background-position:right -2186px;background-position:right -2188px\9;}
+.alp-btnm-d .down{background-position:right -2427px;background-position:right -2429px\9;}
+.alp-btnm-d{background-position:0 -2013px;}
+.alp-btnm-d .inner{background-position:right -2049px;}
+
+.alp-btns-l span,.alp-btns-s span,.alp-btns-w span, .alp-btns-l:hover.inner,.alp-btns-s:hover.inner,.alp-btns-w:hover.inner{color:#1981c8;}
+.alp-btnm-l span,.alp-btnm-s span,.alp-btnm-w span,.alp-btnm-d span{font-size:14px;font-weight:bold;}
+.alp-btnl-l span,.alp-btnl-s span,.alp-btnl-w span,.alp-btnl-d span, .alp-btnt-3 span{font-size:14px;font-weight:bold;}
+.alp-btnl-l,.alp-btnl-s,.alp-btnl-w,.alp-btnl-d, .alp-btnt-3{height:32px;padding-left:3px;}
+.alp-btnl-l .inner,.alp-btnl-s .inner,.alp-btnl-w .inner,.alp-btnl-d .inner,.alp-btnt-3 .inner{line-height:32px;padding:0 14px 0 12px;line-height:30px\9;padding-top:2px\9;}
+.alp-btnl-s .prev,.alp-btnl-w .prev,.alp-btnl-d .prev{padding:0 3px 0 15px;}
+.alp-btnl-s .next,.alp-btnl-w .next,.alp-btnl-d .next,.alp-btnl-s .down,.alp-btnl-w .down,.alp-btnl-d .down{padding:0 13px 0 5px;}
+.alp-btnl-s .prev{background-position:-2px -163px;background-position:-2px -165px\9;}
+.alp-btnl-s .next{background-position:right -163px;background-position:right -165px\9;}
+.alp-btnl-s .down{background-position:right -2370px;background-position:right -2372px\9;}
+.alp-btnl-s{background-position:0 -405px;}
+.alp-btnl-s .inner{background-position:right -447px;}
+.alp-btnl-l:hover,.alp-btnl-s:hover{background-position:0 -685px;}
+.alp-btnl-l:hover .inner,.alp-btnl-s:hover .inner{background-position:right -727px;}
+.alp-btnl-w .prev{background-position:-2px -83px;background-position:-2px -85px\9;}
+.alp-btnl-w .next{background-position:right -83px;background-position:right -85px\9;}
+.alp-btnl-w .down{background-position:right -2292px;background-position:right -2294px\9;}
+.alp-btnl-w{background-position:0 -1245px;}
+.alp-btnl-w .inner{background-position:right -1287px;}
+.alp-btnl-w:hover{background-position:0 -1525px;}
+.alp-btnl-w:hover .inner{background-position:right -1567px;}
+.alp-btnl-d .prev{background-position:-2px -2210px;background-position:-2px -2212px\9;}
+.alp-btnl-d .next{background-position:right -2210px;background-position:right -2212px\9;}
+.alp-btnl-d .down{background-position:right -2450px;background-position:right -2452px\9;}
+.alp-btnl-d{background-position:0 -2085px;}
+.alp-btnl-d .inner{background-position:right -2127px;}
+
+/** with icon **/
+.alp-btnt-s .wi, 
+.alp-btnt-d .wi, 
+.alp-btns-s .wi, 
+.alp-btns-d .wi, 
+.alp-btnm-s .wi, 
+.alp-btnm-d .wi,
+.alp-btnl-s .wi,
+.alp-btnl-d .wi{padding-left:2px;}
+
+/**特殊按钮**/
+.alp-btnt-1,.alp-btnt-2{padding-left:8px;}
+.alp-btnt-1.current, .alp-btnt-1 .inner{ background-position: 0 -2603px; line-height:35px;height:35px;}
+.alp-btnt-1.current .inner{ background-position: right -2648px;}
+.alp-btnt-1 {background-position: 0 -2694px;}
+.alp-btnt-1 .inner{ background-position: right -2734px;}
+
+.alp-btnt-2,.alp-btnt-2 .inner {background-position: 0 -3034px;color:#fff;line-height:26px;height:26px;} 
+.alp-btnt-2 .inner{background-position: right -3070px; color:#369;} 
+
+.alp-btnt-3,.alp-btnt-3 .inner {background-position: 0 -2520px;color:#fff;line-height:32px;height:32px;} 
+.alp-btnt-3 .inner{background-position: right -2561px; color:#fff;} 
+
+/**下载大按钮**/
+.alp-download{width:152px;height:47px; background-position:0 -3148px;text-decoration:none;font-weight:}
+.alp-download:hover{width:152px;height:47px; background-position:0 -3204px;text-decoration:none;}
+/** 首页推荐线路 上下按钮**/
+.alp-split-up{ width:32px; height:32px; background-position:0 -3291px; text-decoration:none;} 
+.alp-split-up:hover{ width:32px; height:32px; background-position:-32px -3291px; text-decoration:none;} 
+.alp-split-down{width:32px; height:32px; background-position:0 -3261px; text-decoration:none;}
+.alp-split-down:hover{width:32px; height:32px; background-position:-32px -3261px; text-decoration:none;}
+/**btn for tab**/
+.alp-btn-t {
+	background-position:0 -2603px;
+	height:35px;
+}
+.alp-btn-t .inner{
+	height:35px;
+	line-height:35px;
+	background-position: right -2643px;
+}
+.alp-btn-t.current {
+	background-position:0 -2603px;
+	
+}
+.alp-btn-t.current .inner {
+	background-position: right -2648px;
+}
+
+

@@ -1,0 +1,35 @@
+/** 
+	=============   表格   =============
+**/
+.alp-table{width:100%;border:1px solid #edf1f2;border-collapse:collapse;font-size:12px;line-height:180%;}
+.alp-table th{border:1px solid #edf1f2;font-weight:normal;color:#666;background-color:#ddf0f9;border-bottom:1px solid #edf1f2;}
+.alp-table td{border:1px solid #edf1f2;padding:3px 9px;}
+.alp-table .no-result{color:#edf1f2;text-align:center;padding:120px 0px;}
+
+.alp-table .odd td{background-color:#fff;}
+.alp-table .even td{background-color:#f9fbff;}
+.alp-table tr.hover td{background-color:#fcfbc8;}
+.alp-table tr.select td{background-color:#d6f9f9;}
+/** 表头 **/
+.alp-table .thead{}
+.alp-table .thead .inner{background-color:#ddf0f9;padding:3px 9px;}
+.alp-table .thead a{text-decoration:none;color:#666;}
+/**foot**/
+.alp-table .tfoot{background-color:#ddf0f9;}
+
+/** 
+	 ==============  小列表  =============
+**/
+.alp-tlist{width:100%;border:none;border-collapse:collapse;font-size:12px;}
+.alp-tlist th,.alp-tlist td{border:none;padding:3px 9px;}
+.alp-tlist tr{border:1px solid #edf1f2;border-width:1px 0;}
+.alp-tlist .thead th{border-bottom:none;font-weight:normal;color:#666;background-color:#ddf0f9;}
+
+/**
+	============= 大列表 =============
+**/
+.alp-tlist-l{width:100%;border:none;border-collapse:collapse;font-size:12px;}
+.alp-tlist-l th,.alp-tlist-l td{border:none;padding:3px 8px;}
+.alp-tlist-l tbody td{border-bottom:1px solid #edf1f2}
+.alp-tlist-l .thead th{border-bottom:1px solid #edf1f2;color:#666;}
+.alp-tlist-l .no-result{border-bottom:0px;}

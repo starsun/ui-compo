@@ -1,0 +1,39 @@
+
+/** 
+ * @sapphire.shand 物流msgbox组件
+ * 
+**/
+@charset "utf-8";
+.lt-m-s .inner{padding-left:5px;display:inline-block;}
+.lt-m-m .inner{}
+
+.lt-m-s{padding:8px 9px;}
+.lt-m-m{padding:14px 34px 19px 34px;}
+.lt-m-l{padding:14px 39px 29px 39px;}
+.lt-m-s .c,.lt-m-m .c,.lt-m-l .c{height:1px;overflow:hidden;clear:both;}
+.lt-m-m .inner,.lt-m-m i,.lt-m-l .inner,.lt-m-l i{float:left;}
+
+.lt-m-blue{background:#f2f8ff;border:1px solid #bdd2ed;}
+.lt-m-green{background:#f9ffe7;border:1px solid #c3d0a0;}
+.lt-m-yellow{background:#fffbe4;border:1px solid #e6d56b;}
+.lt-m-red{background:#fff7f6;border:1px solid #edbab2;}
+
+.lt-m-m  div.inner{margin:10px 0 0 16px;}
+.lt-m-m .rec,.lt-m-m .other{margin:0 0 4px 0;font-size:12px;line-height:16px;}
+.lt-m-m .title{font-size:14px;font-weight:bold;line-height:18px;margin:0 0 8px 0;}
+.lt-m-m .other{margin:17px 0 0 0;}
+
+
+.lt-m-l  div.inner{margin:15px 0 0 16px;}
+.lt-m-l .rec,.lt-m-l .other{margin:0 0 4px 0;font-size:12px;line-height:16px;}
+.lt-m-l .title{font-size:14px;font-weight:bold;line-height:18px;margin:0 0 8px 0;}
+.lt-m-l .other{margin:17px 0 0 0;}
+
+
+.it-m-m-wait{line-height:48px;ont-size:14px;font-weight:bold;}
+.it-m-m-wait i{float:none;margin-right:16px;}
+
+.it-m-l-wait{line-height:64px;font-size:14px;font-weight:bold;}
+.it-m-l-wait i{float:none;margin-right:16px;}
+
+.lt-m-noLeft{padding-left:0;}

@@ -1,0 +1,227 @@
+/**新首页使用的 这部分代码不规范  希望渐渐重构掉**/
+.i_aliLogo,.i_56logo,.i_sinaWeibo,.i_ttWeibo,.i_linkSep,.i_closeAd,.i_tab1,.i_tab2,.i_tab3,.i_tab1_focus,.i_tab2_focus,.i_tab3_focus,.ali_itu_wl_b_selectArrow,.i_apply,.i_expand,.aliLogo{background:url(/alp/images/56resource.png);}
+.i_linkSep{margin-left:3px;}
+.ali_itu_wl_b_selectArrow{width:13px; height:20px; background-position:-380px -37px;right: 20px;top: -3px;cursor:pointer;}
+.i_sinaWeibo,.i_ttWeibo,.i_wwlogo{margin:20px 3px;}
+.i_56logo{margin-top: 7px;width:100px; height:51px; background-position:-161px 0}
+.i_aliLogo{margin-top: 7px;width:161px; height:52px; background-position:0 0}
+.i_sinaWeibo{width:32px; height:32px; background-position:-519px 0}
+.i_ttWeibo{width:32px; height:32px; background-position:-574px 0}
+.i_wwlogo{width:32px; height:32px; background-position:-625px 0}
+.i_apply{width:13px; height:13px; background-position:-229px -136px;padding: 0 5px 3px 0;}
+.i_expand{width:22px; height:19px; background-position:-223px -159px;position: absolute;right: 2px;top: 3px;cursor:pointer;display:none;}
+.i_closeAd{width:29px; height:29px; cursor:pointer;background-position:-480px 0;position: absolute;right: 2px;top: 3px;}
+.i_linkSep{margin-right: 9px;width:8px; height:25px; background-position:-302px -26px}
+.i_tab1,.i_tab2,.i_tab3,.i_tab1_focus,.i_tab2_focus,.i_tab3_focus{width:16px;height:16px;margin:0px 5px 4px 0;}
+.i_tab1{background-position:-680px 0}
+.i_tab2{background-position:-710px 0}
+.i_tab3{background-position:-736px 0}
+.i_tab1_focus,.current .i_tab1{background-position:-766px 0}
+.i_tab2_focus,.current .i_tab2{background-position:-796px 0}
+.i_tab3_focus,.current .i_tab3{background-position:-820px 0}
+
+/** 
+ * @sapphire.shand 物流icon组件
+ * 
+**/
+
+.alp-icon,.i_msg_close,.alp-arrow1,.alp-arrow2,.alp-arrow3,.alp-arrow4,.alp-arrow5,
+.alp-arrow6,.alp-arrow7,.alp-arrow8,.alp-map,.alp-close,.alp-ww, .alp-help, .alp-chat, 
+.alp-bulb, .alp-arrow9, .alp-new,.alp-brand,.alp-brand,.alp-auth,.alp-credit,.alp-network,.alp-spliter-l{
+    background: url("../../images/wi-icon.png") no-repeat scroll 0 0 transparent;
+    display: inline-block;
+    font-size: 0;
+    overflow: hidden;
+    position: relative;
+    vertical-align: middle;	
+}
+
+
+.i_msg_close{ width:16px; height:16px; background-position:-33px -16px;}
+/**箭头 对照img 同一种类的使用序号 **/
+.alp-arrow1,.alp-arrow2,.alp-arrow3,.alp-arrow4,.alp-arrow5,.alp-arrow6,.alp-arrow7,.alp-arrow8,.alp-map,.alp-close,.alp-credit,.alp-network{
+	height: 16px;
+    width: 16px;
+}
+
+.alp-arrow2{
+	background-position: -16px 0px;
+}
+.alp-arrow3{
+	background-position: -32px 0px;
+}
+.alp-arrow4{
+	background-position: -48px 0px;
+}
+.alp-arrow5{
+	background-position: -64px 0px;
+}
+.alp-arrow6{
+	background-position: -80px 0px;
+}
+.alp-arrow7{
+	background-position: -112px 0px;
+}
+.alp-arrow8{
+	background-position: -16px -16px;
+}
+.alp-map{
+	background-position: -96px 0px;
+}
+.alp-close{
+	background-position: 0px -16px;
+	cursor:pointer;
+}
+.alp-credit{background-position:-80px -16px;}
+.alp-network{background-position:-64px -17px;}
+
+.alp-ww, .alp-help, .alp-chat, .alp-bulb, .alp-arrow9,.alp-new{width:24px;height:24px;}
+
+.alp-help{background-position: -128px 0px;}
+.alp-chat{background-position: -152px 0px;}
+.alp-bulb{background-position: -176px 0px;}
+.alp-arrow9{background-position: -200px 0px;}
+.alp-ww{background-position: -224px 0px;}
+.alp-new{background-position: -249px 0px;}
+
+.alp-brand,.alp-auth{height:16px;width:30px;}
+.alp-brand{background-position:-1px -64px;}
+.alp-auth{background-position:-33px -64px;}
+
+.alp-spliter-l{height:55px;width:1px;}
+.alp-spliter-l{background-position:-223px -24px;}
+/* Icon ----*/
+.alp-icon-info {display:inline-block;zoom:1;vertical-align:middle;background-color:transparent;background-repeat:no-repeat;background-image:url('../../images/wi-icon-info.png');overflow:hidden;position:relative;font-size:0;}
+
+.alp-error64,.alp-warring64,.alp-help64,.alp-info64,.alp-failed64,.alp-prob64,.alp-success64{width:64px;height:64px;}
+.alp-error48,.alp-warring48,.alp-help48,.alp-info48,.alp-failed48,.alp-prob48,.alp-success48{width:48px;height:48px;}
+.alp-error32,.alp-warring32,.alp-help32,.alp-info32,.alp-failed32,.alp-prob32,.alp-success32{width:32px;height:32px;}
+.alp-error24,.alp-warring24,.alp-help24,.alp-info24,.alp-failed24,.alp-prob24,.alp-success24{width:24px;height:24px;}
+.alp-error16,.alp-warring16,.alp-help16,.alp-info16,.alp-failed16,.alp-prob16,.alp-success16{width:16px;height:16px;}
+
+.alp-error64{background-position:-68px -85px;} .alp-error48{background-position:-146px -85px;} .alp-error32{background-position:-206px -85px;} .alp-error24{background-position:-250px -85px;} .alp-error16{background-position:-286px -85px;}
+.alp-warring64{background-position:-68px -161px;} .alp-warring48{background-position:-146px -161px;} .alp-warring32{background-position:-206px -161px;} .alp-warring24{background-position:-250px -161px;} .alp-warring16{background-position:-286px -162px;}
+.alp-help64{background-position:-68px -237px;} .alp-help48{background-position:-146px -237px;} .alp-help32{background-position:-206px -237px;} .alp-help24{background-position:-250px -237px;} .alp-help16{background-position:-286px -237px;}
+.alp-info64{background-position:-68px -313px;} .alp-info48{background-position:-146px -313px;} .alp-info32{background-position:-206px -313px;} .alp-info24{background-position:-250px -313px;} .alp-info16{background-position:-286px -314px;}
+.alp-failed64{background-position:-68px -390px;} .alp-failed48{background-position:-146px -389px;} .alp-failed32{background-position:-206px -389px;} .alp-failed24{background-position:-250px -389px;} .alp-failed16{background-position:-286px -389px;}
+.alp-prob64{background-position:-68px -465px;} .alp-prob48{background-position:-146px -465px;} .alp-prob32{background-position:-206px -465px;} .alp-prob24{background-position:-250px -465px;} .alp-prob16{background-position:-286px -466px;}
+.alp-success64{background-position:-68px -542px;} .alp-success48{background-position:-146px -541px;} .alp-success32{background-position:-206px -541px;} .alp-success24{background-position:-250px -541px;} .alp-success16{background-position:-286px -542px;}
+
+/* Icon loading class------------------------------------------------------------------*/
+.alp-i48-loading,.alp-i64-loading{display:inline-block;overflow:hidden;position:relative;font-size:0;zoom:1;vertical-align:middle;}
+.alp-i48-loading{background-image:url(http://img.china.alibaba.com/images/vas/bp/lt/lt-loading48.gif);height:48px;width:48px;}
+.alp-i64-loading{background-image:url(http://img.china.alibaba.com/images/vas/bp/lt/lt-loading64.gif);height:64px;width:64px;}
+
+
+/* Icon Function Button  class 16px height and 16px width------------------------------------------------------------------*/
+.alp-b16-arrowup, .alp-b16-arrowdown, .alp-f16-earth,.alp-b16-bottom,.alp-b16-bottom2,.alp-b16-bottom3,.alp-b16-top,.alp-b16-top2,.alp-b16-top3,.alp-b16-first,.alp-b16-last,.alp-b16-next,.alp-b16-next2,.alp-b16-next3,.alp-b16-prev,.alp-b16-prev2,.alp-b16-prev3,.alp-b16-accept,.alp-b16-minus,.alp-b16-plus,.alp-b16-close,.alp-b16-close2,.alp-f16-wordpad,.alp-f16-cog,.alp-f16-cog2,.alp-f16-bin,.alp-f16-bin2,.alp-f16-email,.alp-f16-email2,.alp-f16-email,.alp-f16-comment,.alp-f16-comments,.alp-f16-cal,.alp-f16-account,.alp-f16-account2,.alp-f16-printer,.alp-f16-video,.alp-f16-video2,.alp-f16-video3,.alp-f16-video4,.alp-f16-analysis,.alp-f16-analysis2,.alp-f16-house,.alp-f16-house2, .alp-f16-person,.alp-f16-person2,.alp-i16-light,.alp-i16-delete,.alp-i16-delete2,.alp-i16-add,.alp-i16-add2,.alp-i16-minus,.alp-i16-minus2,.alp-i16-edit,.alp-i16-edit2,.alp-i16-success,.alp-i16-success2,.alp-i16-error,.alp-i16-arrowT,.alp-i16-arrowT2,.alp-i16-arrowT3,.alp-i16-arrowB,.alp-i16-arrowB2,.alp-i16-arrowB3,.alp-i16-arrowLT,.alp-i16-arrowLT2,.alp-i16-arrowA,.alp-i16-arrowBL,.alp-i16-sigh,.alp-i16-arrow4,.alp-f16-rss,.alp-f16-folder,.alp-f16-folder2,.alp-f16-folder3,.alp-f16-folder4,.alp-f16-folder5,.alp-f16-file,.alp-f16-file2,.alp-f16-file3,.alp-f16-file4,.alp-f16-file5,.alp-f16-search,.alp-f16-search2,.alp-f16-search3,.alp-f16-lock,.alp-f16-lock2,.alp-f16-jian,.alp-f16-hot,.alp-f16-new,.alp-f16-new2,.alp-f16-star,.alp-f16-star2,.alp-f16-star3,.alp-f16-star4,.alp-f16-stars0,.alp-f16-stars1,.alp-f16-stars2,.alp-f16-stars3,.alp-f16-stars4,.alp-f16-stars5,.alp-f16-vip,.alp-b16-replace,.alp-b16-change{display:inline-block;zoom:1;vertical-align:middle;background-color:transparent;background-repeat:no-repeat;background-image:url(http://img.china.alibaba.com/images/vas/bp/lt/icon16-all.png?20110802);overflow:hidden;position:relative;font-size:0;height:16px;width:16px;}
+
+/* base Icon */
+.alp-i16-light{background-position:-82px -61px;}
+.alp-i16-delete{background-position:-82px -99px;}
+.alp-i16-delete2{background-position:-108px -99px;}
+.alp-i16-add{background-position:-82px -137px;}
+.alp-i16-add2{background-position:-108px -137px;}
+.alp-i16-minus{background-position:-82px -175px;}
+.alp-i16-minus2{background-position:-108px -175px;}
+.alp-i16-edit{background-position:-82px -213px;}
+.alp-i16-edit2{background-position:-108px -213px;}
+.alp-i16-success{background-position:-82px -251px;}
+.alp-i16-success2{background-position:-108px -251px;}
+.alp-i16-error{background-position:-82px -289px;}
+.alp-i16-arrowT{background-position:-82px -327px;}
+.alp-i16-arrowT2{background-position:-108px -327px;}
+.alp-i16-arrowT3{background-position:-134px -327px;}
+.alp-i16-arrowB{background-position:-82px -365px;}
+.alp-i16-arrowB2{background-position:-108px -365px;}
+.alp-i16-arrowB3{background-position:-134px -365px;}
+.alp-i16-arrowLT{background-position:-82px -403px;}
+.alp-i16-arrowLT2{background-position:-108px -403px;}
+.alp-i16-arrowA{background-position:-82px -441px;}
+.alp-i16-arrowBL{background-position:-82px -479px;}
+.alp-i16-sigh{background-position:-82px -518px;cursor:pointer;}
+.alp-i16-arrow4{background-position:-82px -556px;cursor:pointer;}
+
+/* function Icon */
+.alp-f16-rss{background-position:-332px -61px;}
+.alp-f16-folder{background-position:-332px -99px;}
+.alp-f16-folder2{background-position:-358px -99px;}
+.alp-f16-folder3{background-position:-384px -99px;}
+.alp-f16-folder4{background-position:-410px -99px;}
+.alp-f16-folder5{background-position:-436px -99px;}
+.alp-f16-file{background-position:-332px -137px;}
+.alp-f16-file2{background-position:-358px -137px;}
+.alp-f16-file3{background-position:-384px -137px;}
+.alp-f16-file4{background-position:-410px -137px;}
+.alp-f16-file5{background-position:-436px -137px;}
+.alp-f16-search{background-position:-332px -176px;}
+.alp-f16-search2{background-position:-358px -176px;}
+.alp-f16-search3{background-position:-384px -176px;}
+.alp-f16-lock{background-position:-332px -213px;}
+.alp-f16-lock2{background-position:-358px -213px;}
+.alp-f16-jian{background-position:-332px -251px;}
+.alp-f16-hot{background-position:-332px -289px;}
+.alp-f16-new{background-position:-332px -327px;}
+.alp-f16-new2{background-position:-358px -327px;}
+.alp-f16-star{background-position:-332px -365px;}
+.alp-f16-star2{background-position:-358px -365px;}
+.alp-f16-star3{background-position:-384px -365px;}
+.alp-f16-star4{background-position:-410px -365px;}
+.alp-f16-stars0{background-position:-332px -593px;width:80px}
+.alp-f16-stars1{background-position:-332px -555px;width:80px}
+.alp-f16-stars2{background-position:-332px -517px;width:80px}
+.alp-f16-stars3{background-position:-332px -479px;width:80px}
+.alp-f16-stars4{background-position:-332px -441px;width:80px}
+.alp-f16-stars5{background-position:-332px -403px;width:80px;}
+.alp-f16-vip{background-position:-582px -61px;width:22px;}
+.alp-f16-person{background-position:-582px -99px;}
+.alp-f16-person2{background-position:-608px -99px;}
+.alp-f16-house{background-position:-582px -137px;}
+.alp-f16-house2{background-position:-608px -137px;}
+.alp-f16-analysis{background-position:-582px -175px;}
+.alp-f16-analysis2{background-position:-608px -175px;}
+.alp-f16-earth{background-position:-582px -213px;}
+.alp-f16-video{background-position:-608px -251px;}
+.alp-f16-video2{background-position:-608px -251px;}
+.alp-f16-video3{background-position:-634px -251px;}
+.alp-f16-video4{background-position:-660px -251px;}
+.alp-f16-printer{background-position:-582px -289px;}
+.alp-f16-account{background-position:-582px -327px;}
+.alp-f16-account2{background-position:-608px -327px;}
+.alp-f16-cal{background-position:-582px -365px;}
+.alp-f16-comment{background-position:-582px -403px;}
+.alp-f16-comments{background-position:-582px -441px;}
+.alp-f16-email{background-position:-582px -479px;}
+.alp-f16-email2{background-position:-608px -479px;}
+.alp-f16-bin{background-position:-582px -517px;}
+.alp-f16-bin2{background-position:-608px -517px;}
+.alp-f16-cog{background-position:-582px -555px;}
+.alp-f16-cog2{background-position:-608px -555px;}
+.alp-f16-wordpad{background-position:-582px -593px;}
+
+/* button Icon */
+.alp-b16-close{background-position:-832px -61px;}
+.alp-b16-close2{background-position:-858px -61px;}
+.alp-b16-plus{background-position:-832px -99px;}
+.alp-b16-minus{background-position:-832px -137px;}
+.alp-b16-accept{background-position:-832px -175px;}
+.alp-b16-prev{background-position:-832px -213px;}
+.alp-b16-prev2{background-position:-858px -213px;}
+.alp-b16-prev3{background-position:-884px -213px;}
+.alp-b16-next{background-position:-832px -251px;}
+.alp-b16-next2{background-position:-858px -251px;}
+.alp-b16-next3{background-position:-884px -251px;}
+.alp-b16-first{background-position:-832px -289px;}
+.alp-b16-last{background-position:-832px -327px;}
+.alp-b16-bottom{background-position:-832px -365px;}
+.alp-b16-bottom2{background-position:-858px -365px;}
+.alp-b16-bottom3{background-position:-884px -365px;}
+.alp-b16-top{background-position:-832px -403px;}
+.alp-b16-top2{background-position:-858px -403px;}
+.alp-b16-top3{background-position:-884px -403px;}
+.alp-b16-arrowdown{background: url("http://img.china.alibaba.com/cms/upload/2011/863/832/238368_773956623.png") 0 -26px;}
+.alp-b16-arrowup{background: url("http://img.china.alibaba.com/cms/upload/2011/863/832/238368_773956623.png") 0 0px;}
+/**new icon**/
+.alp-b16-replace{background-position:-110px -479px;}
+.alp-b16-change{background-position:-110px -517px;}
+.alp-i16-arrowUp {background:url(http://img.china.alibaba.com/cms/upload/2011/788/241/142887_516878777.png) no-repeat 0 2px transparent;font-size:0;height:16px;width:16px;display:inline-block;}

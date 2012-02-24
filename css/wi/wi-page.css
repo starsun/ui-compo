@@ -1,0 +1,20 @@
+/** 
+ * @sapphire.shand 物流分页组件
+ * 
+**/
+.lt-page{line-height:12px;color:#666;}
+.lt-page .node{margin-left:4px;border:1px solid #E8E8E8;background-color:#fff;padding: 2px 5px 1px 5px;text-decoration:none;}
+.lt-page .node_cn{*position:relative;*top:-1px;}
+.lt-page a.node,.lt-page a.node:visited{color:#326699;}
+.lt-page a.node:hover{border-color:#bbd6ef;}
+.lt-page a.disable,.lt-page a.disable:visited,.lt-page a.disable:hover{color:#999;border:1px solid #E8E8E8;cursor:default;}
+.lt-page .current{border-color:#6699CC;background-color:#6699CC;color:#fff;font-weight:bold;}
+.lt-page .goto{margin-left:5px;}
+.lt-page .goto input{width:22px;border:1px solid #D3D3D3;font-size:12px;margin:0px;height:15px;}
+.lt-page .goto a.node,.lt-page .goto a.node:visited{border-color:#E8E8E8;background-color:#fff;padding:2px 8px 2px 8px;}
+.lt-page .goto a.node:hover{border-color:#bbd6ef;}
+
+.lt-page-l a.node:link,.lt-page-l a.node:visited{border:none;}
+.lt-page-l a.node span{border:1px solid #fff;}
+.lt-page-l a.node:hover span{border:1px solid #bbd6ef;}
+.lt-page-l .info{color:#999}

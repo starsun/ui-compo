@@ -1,0 +1,43 @@
+.alp-map-ami,.alp-map-position-l,.alp-map-position-l-y,.alp-map-position-m,.alp-map-position-s{
+	display: inline-block;
+    font-size: 12px;
+	font-weight:bold;
+	font-style:normal;
+	color:#fff;
+    overflow: hidden;
+    position: relative;
+    vertical-align: middle;	
+	background:url(../../images/wi-map.png)  no-repeat scroll 0 0 transparent;
+}
+.alp-map-position-l,.alp-map-position-l-y {
+	width:48px;
+	height:48px;
+	text-indent:17px;
+	line-height:40px;
+}
+.alp-map-position-l	{	
+	background-position:-138px -3px;	
+}
+.alp-map-position-l-y{
+	background-position:-60px -3px;
+}
+.alp-map-position-m{
+	width:32px;
+	height:32px;
+	background-position:-1px -4px;
+	text-indent:9px;
+	line-height:26px;
+}
+.alp-map-position-s{
+	width:20px;
+	height:20px;
+	background-position: -3px -38px;
+	text-indent:6px;
+	line-height:16px;
+}
+.alp-map-ami{
+	width:16px;
+	height:16px;
+	background-position: -34px -39px;
+	font-size:0;
+}

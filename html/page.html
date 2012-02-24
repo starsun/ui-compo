@@ -1,0 +1,189 @@
+<!--include css files -->
+<link rel="stylesheet" href="../css/wi/wi-page.css" />
+<!-- write html code behind -->
+
+<div style="text-align:left;">
+	不带跳转的分页<span class="lt-page">
+		<a href="#prevPage" rel="prev" class="node node_cn">&lt;&nbsp;上一页</a>
+		<a href="#page1" class="node"><span>1</span></a>
+		<a href="#page1" class="node">2</a>
+		<a href="#page1" class="node">3</a>
+		<span>...</span>
+		<a href="#page1" class="node">10</a>
+		<a href="#page1" class="node">11</a>
+		<a href="#page1" class="node">12</a>
+		<span href="#page1" class="node current">10</span>
+		<a href="#page1" class="node">11</a>
+		<a href="#page1" class="node">12</a>
+		<span>...</span>
+		<a href="#nextPage" rel="next" class="node node_cn">下一页&nbsp;&gt;</a>
+	</span>
+</div>
+<pre class="code">
+&lt;div style="text-align:left;"&gt;
+	&lt;span class="lt-page"&gt;
+		&lt;a href="#prevPage" rel="prev" class="node node_cn"&gt;&lt;&nbsp;上一页&lt;/a&gt;
+		&lt;a href="#page1" class="node"&gt;&lt;span&gt;1&lt;/span&gt;&lt;/a&gt;
+		&lt;a href="#page1" class="node"&gt;2&lt;/a&gt;
+		&lt;a href="#page1" class="node"&gt;3&lt;/a&gt;
+		&lt;span&gt;...&lt;/span&gt;
+		&lt;a href="#page1" class="node"&gt;10&lt;/a&gt;
+		&lt;a href="#page1" class="node"&gt;11&lt;/a&gt;
+		&lt;a href="#page1" class="node"&gt;12&lt;/a&gt;
+		&lt;span href="#page1" class="node current"&gt;10&lt;/span&gt;
+		&lt;a href="#page1" class="node"&gt;11&lt;/a&gt;
+		&lt;a href="#page1" class="node"&gt;12&lt;/a&gt;
+		&lt;span&gt;...&lt;/span&gt;
+		&lt;a href="#nextPage" rel="next" class="node node_cn"&gt;下一页&nbsp;&gt;&lt;/a&gt;
+	&lt;/span&gt;
+&lt;/div&gt;
+</pre>
+
+<p></p>
+<p></p>
+<div style="text-align:left;">
+	带跳转的分页<span class="lt-page">
+		<a href="#prevPage" rel="prev" class="node node_cn">&lt;&nbsp;上一页</a>
+		<a href="#page1" class="node"><span>1</span></a>
+		<a href="#page1" class="node">2</a>
+		<a href="#page1" class="node">3</a>
+		<span>...</span>
+		<a href="#page1" class="node">10</a>
+		<a href="#page1" class="node">11</a>
+		<a href="#page1" class="node">12</a>
+		<span href="#page1" class="node current">10</span>
+		<a href="#page1" class="node">11</a>
+		<a href="#page1" class="node">12</a>
+		<span>...</span>
+		<a href="#nextPage" rel="next" class="node node_cn">下一页&nbsp;&gt;</a>&nbsp;共20页
+		<span class="goto">到<input class="ac" type="text">页<a href="javascript:;" class="alp-btnt-s" rel="goto"><span class="inner">确定</span></a></span>
+	</span>
+</div>
+<pre class="code">
+&lt;div style="text-align:left;"&gt;
+	&lt;span class="lt-page"&gt;
+		&lt;a href="#prevPage" rel="prev" class="node node_cn"&gt;&lt;&nbsp;上一页&lt;/a&gt;
+		&lt;a href="#page1" class="node"&gt;&lt;span&gt;1&lt;/span&gt;&lt;/a&gt;
+		&lt;a href="#page1" class="node"&gt;2&lt;/a&gt;
+		&lt;a href="#page1" class="node"&gt;3&lt;/a&gt;
+		&lt;span&gt;...&lt;/span&gt;
+		&lt;a href="#page1" class="node"&gt;10&lt;/a&gt;
+		&lt;a href="#page1" class="node"&gt;11&lt;/a&gt;
+		&lt;a href="#page1" class="node"&gt;12&lt;/a&gt;
+		&lt;span href="#page1" class="node current"&gt;10&lt;/span&gt;
+		&lt;a href="#page1" class="node"&gt;11&lt;/a&gt;
+		&lt;a href="#page1" class="node"&gt;12&lt;/a&gt;
+		&lt;span&gt;...&lt;/span&gt;
+		&lt;a href="#nextPage" rel="next" class="node node_cn"&gt;下一页&nbsp;&gt;&lt;/a&gt;&nbsp;共20页
+		&lt;span class="goto"&gt;到&lt;input class="ac" type="text"&gt;页&lt;a href="javascript:;" class="alp-btnt-s" rel="goto"&gt;&lt;span class="inner"&gt;确定&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;
+	&lt;/span&gt;
+&lt;/div&gt;
+</pre>
+<p></p>
+
+<div style="text-align:left;">
+	带跳转带无效状态的分页<span class="lt-page">
+		<a href="#prevPage" rel="prev" class="node node_cn disable">&lt;&nbsp;上一页</a>
+		<a href="#page1" class="node"><span>1</span></a>
+		<a href="#page1" class="node">2</a>
+		<a href="#page1" class="node">3</a>
+		<span>...</span>
+		<a href="#page1" class="node">10</a>
+		<a href="#page1" class="node">11</a>
+		<a href="#page1" class="node">12</a>
+		<span href="#page1" class="node current">10</span>
+		<a href="#page1" class="node">11</a>
+		<a href="#page1" class="node">12</a>
+		<span>...</span>
+		<a href="#nextPage" rel="next" class="node node_cn">下一页&nbsp;&gt;</a>
+		<span class="goto">到<input class="ac" type="text">页<a href="javascript:;" class="alp-btnt-s" rel="goto"><span class="inner">确定</span></a></span>
+	</span>
+</div>
+<pre class="code">
+&lt;div style="text-align:left;"&gt;
+	&lt;span class="lt-page"&gt;
+		&lt;a href="#prevPage" rel="prev" class="node node_cn disable"&gt;&lt;&nbsp;上一页&lt;/a&gt;
+		&lt;a href="#page1" class="node"&gt;&lt;span&gt;1&lt;/span&gt;&lt;/a&gt;
+		&lt;a href="#page1" class="node"&gt;2&lt;/a&gt;
+		&lt;a href="#page1" class="node"&gt;3&lt;/a&gt;
+		&lt;span&gt;...&lt;/span&gt;
+		&lt;a href="#page1" class="node"&gt;10&lt;/a&gt;
+		&lt;a href="#page1" class="node"&gt;11&lt;/a&gt;
+		&lt;a href="#page1" class="node"&gt;12&lt;/a&gt;
+		&lt;span href="#page1" class="node current"&gt;10&lt;/span&gt;
+		&lt;a href="#page1" class="node"&gt;11&lt;/a&gt;
+		&lt;a href="#page1" class="node"&gt;12&lt;/a&gt;
+		&lt;span&gt;...&lt;/span&gt;
+		&lt;a href="#nextPage" rel="next" class="node node_cn"&gt;下一页&nbsp;&gt;&lt;/a&gt;
+		&lt;span class="goto"&gt;到&lt;input class="ac" type="text"&gt;页&lt;a href="javascript:;" class="alp-btnt-s" rel="goto"&gt;&lt;span class="inner"&gt;确定&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;
+	&lt;/span&gt;
+&lt;/div&gt;
+</pre>
+
+<p></p>
+<div style="text-align:left;">
+	简化分页<span class="lt-page lt-page-l">
+		<a href="#prevPage" rel="prev" class="node node_cn">&lt;&nbsp;上一页</a>
+		<span class="info">10/200</span>
+		<a href="#nextPage" rel="next" class="node node_cn">下一页&nbsp;&gt;</a>
+	</span>
+</div>
+<pre class="code">
+&lt;div style="text-align:left;"&gt;
+	&lt;span class="lt-page lt-page-l"&gt;
+		&lt;a href="#prevPage" rel="prev" class="node node_cn"&gt;&lt;&nbsp;上一页&lt;/a&gt;
+		&lt;span class="info"&gt;10/200&lt;/span&gt;
+		&lt;a href="#nextPage" rel="next" class="node node_cn"&gt;下一页&nbsp;&gt;&lt;/a&gt;
+	&lt;/span&gt;
+&lt;/div&gt;
+</pre>
+
+<p></p>
+<div style="text-align:left;">
+	带无效状态的简化分页<span class="lt-page lt-page-l">
+		<a href="#prevPage" rel="prev" class="node node_cn disable">&lt;&nbsp;上一页</a>
+		<span class="info">10/200</span>
+		<a href="#nextPage" rel="next" class="node node_cn">下一页&nbsp;&gt;</a>
+	</span>
+</div>
+<pre class="code">
+&lt;div style="text-align:left;"&gt;
+	&lt;span class="lt-page lt-page-l"&gt;
+		&lt;a href="#prevPage" rel="prev" class="node node_cn disable"&gt;&lt;&nbsp;上一页&lt;/a&gt;
+		&lt;span class="info"&gt;10/200&lt;/span&gt;
+		&lt;a href="#nextPage" rel="next" class="node node_cn"&gt;下一页&nbsp;&gt;&lt;/a&gt;
+	&lt;/span&gt;
+&lt;/div&gt;
+</pre>
+
+<p></p>
+<div style="text-align:left;">
+异步分页使用方式：<br />
+<pre class="code">
+在js中引入下面的分页组件：	
+<pre class="code">
+ALP.Import('widget/widget.js');
+ALP.Import('util/string.js');
+ALP.Import('widget/page.js');
+</pre>
+html中添加分页容器：
+<pre class="code">
+&lt;div id="pagebar"&gt;&lt;/div&gt;
+</pre>
+通常在异步获取数据后调用create和init方法：
+<pre class="code">
+/**添加分页**/
+$("#pagebar a").unbind();//卸载事件
+var query = {curPage:4,totalPage:12};//从异步数据中获得分页信息	
+Widget.Page.create("#pagebar", query);
+Widget.Page.init("#pagebar", function(p){//回调函数，通常是点击分页后重新请求数据
+	parame.curPage = p;
+	self.getPage(parame);
+});		
+</pre>
+<pre class="code">
+
+</div>
+
+
+

@@ -1,0 +1,68 @@
+
+/**for menu**/
+.ui-autocomplete {
+    cursor: default;
+    position: absolute;
+}
+
+.ui-menu {
+	width:230px;
+	border:1px solid #E6E5E5;
+	background-color: #fff;
+    float: left;
+    list-style: none outside none;
+    margin: 0;
+    padding: 2px;
+    height:auto !important;
+    height:220px;
+    max-height:220px;
+    overflow-y:auto;
+    overflow-x:hidden;
+	
+}
+.ui-menu .ui-menu {
+    margin-top: -3px;
+}
+.ui-menu a{
+	color:#404040;
+}
+.ui-menu .ui-menu-item {
+    clear: left;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.ui-menu .ui-menu-item a {
+    display: block;
+    line-height: 1.5;
+    padding: 0.2em 0.4em;
+    text-decoration: none;
+}
+.ui-menu .ui-state-hover,.ui-menu .ui-state-active {
+	background-image: none;
+	background-color: #06c;
+	border:none;
+}
+.ui-menu .ui-menu-item a.ui-state-hover, .ui-menu .ui-menu-item a.ui-state-active {
+    font-weight: normal;
+    margin: -1px;
+}
+.ui-menu .ui-state-hover a,.ui-menu .ui-state-hover a:hover{
+	color:#fff;
+	font-weight: normal;
+}
+
+.sa-autocomplete-menutip{
+	position:absolute;
+	background-color: #e6e5e5;
+	line-height:28px;
+	height:28px;
+	text-align:center;
+	color:#666;
+	width:236px;
+	z-index: 10;
+}
+.sa-autocomplete-menutip .arr{
+	color:#06c;
+}
